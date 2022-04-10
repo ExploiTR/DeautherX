@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "spacehunn.exploitr.serial.deautherx"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode getDate() // yy-hh-ss
+        versionName "0x Init"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+static def getDate() {
+    return (new Date().format('yyyyMMddHHmmss').toLong() / 999999).toInteger()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.github.felHR85:UsbSerial:4.5.2'
+    implementation 'org.apache.commons:commons-lang3:3.7'
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SCAN_MODE">
+        <item>Scan ALL</item>
+        <item>Scan AP</item>
+        <item>Scan STATIONS</item>
+        <item>Scan WIFI</item>
+    </string-array>
+</resources>

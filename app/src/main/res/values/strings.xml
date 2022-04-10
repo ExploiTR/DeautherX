@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DeAutherX</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="deautherx">DeAutherX</string>
+    <string name="_mail">pratimmajumder1@gmail.com</string>
+    <string name="attack">Attack</string>
+    <string name="scan">Scan</string>
+    <string name="scan_modes_setup">Scan Modes / Setup</string>
+    <string name="time_sex">time ? : seconds</string>
+    <string name="_15s">15s</string>
+    <string name="time_sex_con">Continue time ? : Seconds</string>
+    <string name="scan_channel_13"><![CDATA[Scan Channel ? : <= 13]]></string>
+    <string name="start_scan">Start Scan</string>
+    <string name="_15">15</string>
+</resources>
